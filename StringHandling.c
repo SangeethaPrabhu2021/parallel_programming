@@ -23,7 +23,7 @@ int main(int argc,char** argv)
     MPI_Status status;
     char str[5][5],sub[5],a[5];
     int b[5],l;
-    if(rank==0)
+    if(rank==0)//for process 0
     {
         printf("Enter the strings : \n");
         for(int i=0;i<5;i++)
